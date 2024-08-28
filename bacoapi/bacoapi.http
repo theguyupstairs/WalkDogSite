@@ -1,0 +1,6 @@
+@bacoapi_HostAddress = http://localhost:5023
+
+GET {{bacoapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

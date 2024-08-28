@@ -1,0 +1,169 @@
+
+.Home {
+  width: 100%;
+  height: 100%;
+}
+
+.map-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+}
+
+.menu-button {
+  position: absolute;
+  z-index: 1;
+  left: 1vh;
+  top: 1.5vh;
+  width: 9vh;
+  height: 5.2vh;
+  border-radius: 5px 0 0 5px;
+  background-color: #F6C66C;
+  border: transparent;
+  color: #004E9D;  
+  font-size: 2vh;
+}
+
+.undo-button {
+  position: absolute;
+  z-index: 1;
+  left: 10vh;
+  top: 1.5vh;
+  width: 9vh;
+  height: 5.2vh;
+  background-color: #F6C66C;
+  border: transparent;
+  color: #004E9D;  
+  font-size: 2vh;
+}
+
+.clear-button {
+  position: absolute;
+  z-index: 1;
+  left: 19vh;
+  top: 1.5vh;
+  width: 9vh;
+  height: 5.2vh;
+  border-radius: 0 5px 5px 0;  
+  background-color: #F6C66C;
+  border: transparent;
+  color: #004E9D;  
+  font-size: 2vh;
+}
+
+.login-button-main {
+  position: absolute;
+  z-index: 1;
+  left: 1vh;
+  bottom: 1.5vh;
+  width: 9vh;
+  height: 5.2vh;
+  border-radius: 5px 5px 5px 5px;  
+  background-color: #F6C66C;
+  border: transparent;
+  color: #004E9D;  
+  font-size: 2vh;
+}
+
+.distance-tracker img {
+  position: absolute;
+  z-index: 1;
+  right: 5vh;
+  bottom: 3.2vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: transparent;
+  color: #004E9D;
+  font-size: 2vh;
+}
+
+.distance-header {
+  position: absolute;
+  z-index: 1;
+  right: 17.5vh;
+  bottom: 11.5vh;
+  font-size: 4.5vh; 
+  font-weight: bold;
+  color: #004E9D;
+
+}
+
+.distance-subheader {
+  position: absolute;
+  z-index: 1;
+  right: 18.5vh;
+  bottom: 10.5vh;
+  font-size: 1.5vh;
+}
+
+.search {
+  position: absolute;
+  right: 1vh;
+  top: 1.5vh;
+  z-index: 1;
+  width: 20%;
+}
+
+.search label {
+  height: 5.2vh;
+  display: flex;
+  width: 100%;
+}
+
+.search input { 
+  background-color: #F6C66C;
+  color: #004E9D;
+  border: transparent;
+  outline: none;
+  border-radius: 5%/60%;
+  font-size: 2vh;
+  width: 40vh;
+  padding: 0 10px; /* Adjust padding as needed */
+}
+
+.map {
+  display: flex;
+  height: 96vh;
+  width: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

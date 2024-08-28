@@ -1,0 +1,142 @@
+.login_window {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vh; 
+    height: fit-content;
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: white;
+}
+
+
+.login_window.open {
+    display: flex;
+}
+
+
+.login_window.closed {
+    display: none;
+}
+
+.close_button {
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    background-color: white;
+    border-color: blue;
+}
+
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Email {
+    height: 5vh;
+    width: 50vh;
+    margin-top: 2vh;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 5px;
+    width: 50vh;
+    height: fit-content;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    bottom: -10px;
+}
+
+.instructions i {
+    padding-right: 5px;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.Name {
+    height: 5vh;
+    width: 50vh;
+    margin-top: 2vh;
+}
+
+.Password {
+    height: 5vh;
+    width: 50vh;
+    margin-top: 2vh;
+}
+
+.confirm-password {
+    height: 5vh;
+    width: 50vh;
+    margin-top: 2vh;
+}
+
+.instructionspwd {
+    font-size: 0.75rem;
+    border-radius: 5px;
+    width: 50vh;
+    height: fit-content;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    bottom: -10px;
+}
+
+.instructionspwd i {
+    padding-right: 5px;
+}
+
+.offscreenpwd {
+    position: absolute;
+    left: -9999px;
+}
+
+.button-container {
+    display: inline; 
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.login_button {
+    margin-right: 4vh;
+    height: 5vh;
+    width: 21.5vh;
+}
+
+.register_button {
+    margin-left: 4vh;
+    height: 5vh;
+    width: 21.5vh;
+}
+
+.register_button {
+    margin-right: 4vh;
+    height: 5vh;
+    width: 21.5vh;
+}
+
+.login_button {
+    margin-left: 4vh;
+    height: 5vh;
+    width: 21.5vh;
+}
