@@ -2,7 +2,7 @@
 
 ### A brief Summary
 
-I have two dogs, a poodle and a golden retriever, who I love greatly. It has been a long-held frustration of mine that some people don't walk their dogs enough. To solve this problem, I decided to make a website that would gamify dog-walking to the best of my ability. 
+I have two dogs, a poodle and a golden retriever. It has been a long-held frustration of mine that some people don't walk their dogs enough. To solve this problem, I decided to make a website that would gamify dog-walking to the best of my ability. 
 
 ### The Website
 
